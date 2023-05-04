@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>University Website Design - Easy Tutorials</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,500;1,600&display=swap" >
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+	<section class="header">
+        <nav>
+            <a href="index.html"> <img src="D:\BhargavDoc's\Kruthivennu App\New Kruthivennu App Pics\logo.jpg" alt="Kruthivennu mandal logo"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SACHIVALAYAMS</a></li>
+                    <li><a href="">GOVT OFFICES</a></li>
+                    <li><a href="">GOVT SCHOOLS</a></li>
+                    <li><a href="">BEST IN KRUTHIVENNU</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Kruthivennu Mandal: Where Tradition Meets Progress!</h1>
+            <p>
+                Kruthivennu Mandal is well connected with the neighboring areas through a network of roads and highways.
+            </p>
+            <a href="" class="hero-btn">Click here for more details</a>
+        </div>
+	</section>
+
+  <section  class="Leaders">
+    <h1 >Leaders In Front</h1>
+    <p>Leaders are individuals who inspire, motivate, and guide others towards a common goal or vision 
+      <br>using their skills, knowledge, and experience to bring about positive change in their organization or community
+    </p>
+    <div class="row">
+      <div class="leader-column">
+        <h3>State Level Leaders</h3>
+
+        <p><h5>MLA/MP</h5><br>
+"Member of Legislative Assembly." An MLA is a representative elected by the people of a particular constituency in a state to serve in the state legislature. The main responsibilities of an MLA include representing the interests and concerns of their constituency in the legislative assembly, participating in the lawmaking process, and overseeing the functioning of the state government.
+ Each state in India has its own legislative assembly, and the number of MLAs in each assembly is determined by the population of the state.        </p>
+      </div>
+      <div class="leader-column">
+        <h3>District Level Leaders</h3>
+
+        <p><h5>ZPTCS/MYC/</h5><br>
+ZPTC stands for "Zilla Parishad Territorial Constituency." It is a constituency for the election of members to the Zilla Parishad, which is the local government body at the district level. ZPTCs are created by dividing a district into territorial constituencies, and each ZPTC is represented by a member who is elected through a direct election by the voters of that constituency. The ZPTCs, along with the MPTCs (Mandal Parishad Territorial Constituencies), form the electoral college for the election of the Zilla Parishad Chairperson.
+ The Zilla Parishad is responsible for the administration of various development programs and services at the district level, including agriculture, health, education, roads, and public works.        </p>
+      </div>
+      <div class="leader-column">
+        <h3>Mandal Level Leaders</h3>
+        <p><h5>MPP</h5><br>
+           MPP can stand for "Mandal Parishad President." Mandal Parishad is a local government body at the Mandal (block/tehsil) level in some states of India. The Mandal Parishad President (MPP) is the head of the Mandal Parishad and is elected by the members of the Mandal Parishad Territorial Constituencies (MPTCs). The MPP is responsible for the overall administration of the Mandal, including the implementation of various development programs and services, such as health, education, agriculture, roads, and public works.
+            The MPP also represents the Mandal at higher levels of government and works closely with other local government bodies, such as the Zilla Parishad and Gram Panchayats, to ensure coordinated and effective delivery of services.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <script>
+    function hideMenu(){
+     var navLinks=document.getElementById("navLinks");
+     navLinks.style.right="-200px";
+    }
+    function showMenu(){
+     var navLinks=document.getElementById("navLinks");
+     navLinks.style.right="0";
+    }
+  </script>
+  </body>
+</html>
