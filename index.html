@@ -29,8 +29,7 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="text-box">
-            <h1 class="my-heading">Kruthivennu Mandal: Where Tradition Meets Progress!</h1>
+        <div class="text-box" id="display">
             <p class="my-para">
                Aeyav uhhhhhhhhhhhhhh baby
             </p>
@@ -70,6 +69,36 @@ ZPTC stands for "Zilla Parishad Territorial Constituency." It is a constituency 
   </section>
 
   <script>
+	   let strings =
+      ["We'll Save water together", 
+       "Call me cute even I'm naked", 
+       "Be excited for me", 
+       "Don't hesitate to ask for a kiss/hug", 
+       "Treat me like your king as Rupunzle do",
+       "Want have full sleep with you", 
+       "Let's make smile on the faces of people",
+       "Heard about great love, I'll be your Rama you should be my sita",
+       "With lots of emotions ", 
+       "Ni Mad Comrade Mogudu"];
+       let size = strings.length;
+       let index = 0;
+       function displayValue() {
+  // Get the element where you want to display the value
+  let element = document.getElementById("display");
+
+  // Set the inner text of the element to the value at the current index
+  element.innerText = strings[index];
+
+  // Increment the index by one
+  index++;
+
+  // If the index reaches the size, reset it to zero
+  if (index == size) {
+    index = 0;
+  }
+}
+
+	   setInterval(displayValue, 2000);
     function hideMenu(){
      var navLinks=document.getElementById("navLinks");
      navLinks.style.right="-200px";
